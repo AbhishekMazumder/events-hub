@@ -1,11 +1,12 @@
-import React from 'react'
+import { useRouter } from 'next/router';
+import Layout from '../../components/Layout';
 
 const SingleEventPage = () => {
-  return (
-    <div>
-      <h1>My Event</h1>
-    </div>
-  )
-}
+	return (
+		<Layout>
+			<h1>My Event</h1>
+		</Layout>
+	);
+};
 
-export default SingleEventPage
+export default SingleEventPage;
